@@ -2,7 +2,13 @@ import About from "./Screens/About";
 import Contact from "./Screens/Contact";
 import Home from "./Screens/Home";
 import Work from "./Screens/Work";
-import { Routes, Route } from "react-router-dom";
+import {
+  Routes,
+  Route,
+  Router,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import Nav from "./components/Nav";
 
 export default function App() {
