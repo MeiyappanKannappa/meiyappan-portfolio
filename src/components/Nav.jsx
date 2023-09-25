@@ -40,7 +40,7 @@ const Nav = () => {
       <div className="flex items-center ">
         <a href="/" className="mt-[-16px] md:ml-[45px]">
           <img
-            src="./assets/images/logo.png"
+            src="assets/images/logo.png"
             width={"66px"}
             height={"97px"}
             alt="Site_Logo"
