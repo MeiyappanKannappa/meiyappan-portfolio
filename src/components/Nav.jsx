@@ -29,7 +29,7 @@ const Nav = () => {
         {Logos.map(({ id, link, image }) => (
           <a key={id} href={link}>
             <img
-              src={image}
+              src={require(image)}
               width={"28px"}
               height={"28px"}
               alt={`Logo ${id}`}
@@ -40,7 +40,7 @@ const Nav = () => {
       <div className="flex items-center ">
         <a href="/" className="mt-[-16px] md:ml-[45px]">
           <img
-            src="assets/images/logo.png"
+            src={require("assets/images/logo.png")}
             width={"66px"}
             height={"97px"}
             alt="Site_Logo"

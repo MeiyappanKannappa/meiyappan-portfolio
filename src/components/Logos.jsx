@@ -11,8 +11,7 @@ const Logos = [
   },
   {
     id: 3,
-    image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.creativebloq.com%2Fnews%2Fmedium-new-logo-2020&psig=AOvVaw3F4IZu4ZRdenDAfXTO-wgx&ust=1695736258888000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjC4PvzxYEDFQAAAAAdAAAAABAE",
+    image: "assets/images/medium.png",
     link: "medium.com",
   },
   {
