@@ -23,9 +23,10 @@ const About = () => {
           ))}
         </div>
       </section>
+
       <section className="mt-[70px] ">
-        <div className="flex ">
-          <h1 className="text-[24px] font-bold text-[#505050] w-[30%]">
+        <div className="flex lg:justify-center">
+          <h1 className="text-[24px] font-bold text-[#505050] md:w-[280px]">
             About
           </h1>
           <div className="text-[20px] font-poppins">
@@ -78,9 +79,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10">
+      <section className="mt-10 flex lg:justify-center lg:-ml-[280px]">
         <div className="flex">
-          <h1 class="text-[24px] font-bold text-[#505050] w-[30%] ">
+          <h1 class="text-[24px] font-bold text-[#505050] md:w-[280px] ">
             Work <br />
             Experience
           </h1>
