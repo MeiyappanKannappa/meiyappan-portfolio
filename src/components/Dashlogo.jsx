@@ -4,15 +4,15 @@ const Dashlogo = () => {
   const companylogo = [
     {
       id: 1,
-      image: "assets/images/ford.png",
+      image: "/assets/images/ford.png",
     },
     {
       id: 2,
-      image: "assets/images/benz.png",
+      image: "/assets/images/benz.png",
     },
     {
       id: 3,
-      image: "assets/images/cognizant.png",
+      image: "/assets/images/cognizant.png",
     },
   ];
 
