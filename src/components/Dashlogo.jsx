@@ -19,13 +19,13 @@ const Dashlogo = () => {
   return (
     <div>
       <div>
-        <div className="hidden md:flex justify-center items-center gap-[80px]">
-          <img src="/assets/images/ford.png" height={"80px"} width={"160px"} />
+        <div className="hidden md:flex justify-center items-center gap-[100px]">
+          <img src="/assets/images/ford.png" height={"80px"} width={"220px"} />
           <img src="/assets/images/benz.png" height={"85px"} width={"90px"} />
           <img
             src="/assets/images/cognizant.png"
             height={"91px"}
-            width={"290"}
+            width={"350"}
           />
         </div>
       </div>

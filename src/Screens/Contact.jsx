@@ -5,7 +5,7 @@ const Contact = () => {
     <main>
       <section className="mt-[50px]">
         <div class="flex ">
-          <div class="w-[23%]">
+          <div class="w-[20%]">
             <h1 class="text-[24px] mt-[10px] font-bold text-[#505050]">
               Contact Me
             </h1>

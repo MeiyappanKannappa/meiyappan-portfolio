@@ -30,15 +30,15 @@ const Nav = () => {
           <a key={id} href={link}>
             <img
               src={image}
-              width={"28px"}
-              height={"28px"}
+              width={"32px"}
+              height={"32px"}
               alt={`Logo ${id}`}
             />
           </a>
         ))}
       </div>
       <div className="flex items-center ">
-        <a href="/" className="mt-[-16px] md:ml-[45px]">
+        <a href="/" className="mt-[-16px] md:ml-[120px]">
           <img
             src="/assets/images/logo.png"
             width={"66px"}
@@ -48,9 +48,9 @@ const Nav = () => {
         </a>
       </div>
 
-      <ul className="hidden md:flex space-x-2 items-center">
+      <ul className="hidden md:flex items-center md:space-x-5">
         {tabs.map(({ id, link, name }) => (
-          <li key={id} className="text-[20px] px-2">
+          <li key={id} className="text-[28px]">
             <a href={link}>{name}</a>
           </li>
         ))}
