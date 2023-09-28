@@ -28,7 +28,7 @@ const Dashlogo = () => {
             width={"350"}
           />
         </div>
-        <div className="mx-[60px] mt-[50px] md:hidden  items-center ">
+        <div className="mx-[20px] mt-[50px] md:hidden  items-center ">
           <div className="flex gap-10 justify-between">
             <img
               src="/assets/images/ford.png"

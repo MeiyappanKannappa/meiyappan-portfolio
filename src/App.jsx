@@ -13,7 +13,7 @@ import Nav from "./components/Nav";
 
 export default function App() {
   return (
-    <main className="md:mx-[192px] mx-9">
+    <main className="mx-[30px] md:mx-[192px]">
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />

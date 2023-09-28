@@ -5,12 +5,12 @@ import WorkExperience from "../sections/WorkExperience";
 const About = () => {
   return (
     <main className="mb-[70px]">
-      <section className="text-[18px] font-poppins mt-[71px] text-center md:mx-[210px]">
+      <section className="mt-[30px] text-[18px] font-poppins md:mt-[71px] text-center md:mx-[210px]">
         A technological dreamer and enthusiast that derives great satisfaction
         from crafting sophisticated software structures, and I am dedicated to
         being a driving force in the professional arena in the mobility space.
       </section>
-      <section className="mt-[70px] ">
+      <section className="md:mt-[70px] ">
         <div className="hidden md:flex justify-center gap-[30px] object-cover">
           {AboutImg.map((item) => (
             <img
@@ -20,21 +20,21 @@ const About = () => {
             />
           ))}
         </div>
-        <div className="mt-[50px] md:hidden ">
-          <div className="flex justify-between object-cover">
+        <div className=" mt-[50px] md:hidden ">
+          <div className="flex justify-between">
             <img
               src="/assets/images/about-2.png"
-              className="h-[190px] w-[190px]"
+              className="h-[160px] w-auto"
             />
             <img
               src="/assets/images/about-1.png"
-              className="h-[190px] w-[190px]"
+              className="h-[160px] w-auto"
             />
           </div>
           <div className="flex mt-6">
             <img
               src="/assets/images/about-3.png"
-              className="h-[270px] w-full "
+              className="h-[220px] w-full "
             />
           </div>
         </div>
