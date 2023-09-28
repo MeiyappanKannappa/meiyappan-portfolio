@@ -24,17 +24,17 @@ const About = () => {
           <div className="flex justify-between">
             <img
               src="/assets/images/about-2.png"
-              className="h-[177px] w-auto"
+              className="h-[215px] w-auto"
             />
             <img
               src="/assets/images/about-1.png"
-              className="h-[177px] w-auto"
+              className="h-[215px] w-auto"
             />
           </div>
           <div className="flex mt-3">
             <img
               src="/assets/images/about-3.png"
-              className="h-[230px] w-full "
+              className="h-[260px] w-full "
             />
           </div>
         </div>
