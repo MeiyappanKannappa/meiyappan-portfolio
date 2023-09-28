@@ -20,15 +20,15 @@ const About = () => {
             />
           ))}
         </div>
-        <div className=" mt-[50px] md:hidden ">
-          <div className="flex justify-center gap-7">
+        <div className="mt-[50px] md:hidden">
+          <div className="flex">
             <img
               src="/assets/images/about-2.png"
-              className="h-[205px] w-full object-contain "
+              className="h-[210px] flex-1 w-full object-contain "
             />
             <img
               src="/assets/images/about-1.png"
-              className="h-[205px] w-full object-contain"
+              className="h-[210px] flex-1 w-full object-contain"
             />
           </div>
           <div className="flex mt-3">
