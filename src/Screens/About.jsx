@@ -24,11 +24,11 @@ const About = () => {
           <div className="flex">
             <img
               src="/assets/images/about-2.png"
-              className="h-[210px] flex-1 w-full object-contain "
+              className="h-[190px] flex-1 w-full object-contain "
             />
             <img
               src="/assets/images/about-1.png"
-              className="h-[210px] flex-1 w-full object-contain"
+              className="h-[190px] flex-1 w-full object-contain"
             />
           </div>
           <div className="flex mt-3">
