@@ -21,14 +21,14 @@ const About = () => {
           ))}
         </div>
         <div className=" mt-[50px] md:hidden ">
-          <div className="flex justify-center">
+          <div className="flex justify-center gap-7">
             <img
               src="/assets/images/about-2.png"
-              className="h-[220px] w-full object-cover "
+              className="h-[205px] w-full object-contain "
             />
             <img
               src="/assets/images/about-1.png"
-              className="h-[220px] w-full object-cover"
+              className="h-[205px] w-full object-contain"
             />
           </div>
           <div className="flex mt-3">
