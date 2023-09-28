@@ -6,11 +6,13 @@ const WorkExperience = () => {
     <main>
       {WorkExperienceData.reverse().map((items) => (
         <div className="mb-[20px] md:mb-[30px]">
-          <div key={items.id} className="text-[22px]">
+          <div key={items.id} className="text-[16px] md:text-[22px]">
             {items.JobTitle} •{" "}
-            <span className="font-poppins text-[18px]">{items.Company}</span>
+            <span className="font-poppins text-[14px] md:text-[18px]">
+              {items.Company}
+            </span>
           </div>
-          <p className="text-[14px] font-poppins italic">
+          <p className="text-[12px] md:text-[14px] font-poppins italic">
             {items.FromDate} - {items.ToDate}
           </p>
         </div>

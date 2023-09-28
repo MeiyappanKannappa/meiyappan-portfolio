@@ -5,7 +5,7 @@ import WorkExperience from "../sections/WorkExperience";
 const About = () => {
   return (
     <main className="mb-[70px]">
-      <section className="mt-[30px] text-[18px] font-poppins md:mt-[71px] text-center md:mx-[210px]">
+      <section className="mt-[30px] text-[14px] md:text-[18px] font-poppins md:mt-[71px] text-center md:mx-[210px]">
         A technological dreamer and enthusiast that derives great satisfaction
         from crafting sophisticated software structures, and I am dedicated to
         being a driving force in the professional arena in the mobility space.
@@ -24,17 +24,17 @@ const About = () => {
           <div className="flex justify-between">
             <img
               src="/assets/images/about-2.png"
-              className="h-[160px] w-auto"
+              className="h-[177px] w-auto"
             />
             <img
               src="/assets/images/about-1.png"
-              className="h-[160px] w-auto"
+              className="h-[177px] w-auto"
             />
           </div>
-          <div className="flex mt-6">
+          <div className="flex mt-3">
             <img
               src="/assets/images/about-3.png"
-              className="h-[220px] w-full "
+              className="h-[230px] w-full "
             />
           </div>
         </div>
@@ -42,10 +42,10 @@ const About = () => {
 
       <section className="mt-[50px] md:mt-[70px] ">
         <div className="md:flex md:justify-center">
-          <h1 className="mb-[10px] text-[24px] font-bold text-[#505050] md:mr-[230px]">
+          <h1 className="mb-[10px] text-[18px] md:text-[24px] font-bold text-[#505050] md:mr-[230px]">
             About
           </h1>
-          <div className="text-[20px] font-poppins md:mx-[20px] ">
+          <div className="text-[14px] md:text-[20px] font-poppins md:mx-[20px] ">
             I have worked in software architecture for over a decade and have
             extensive experience with application modernisation for the Digital
             Journey. My whole professional life has been spent developing
@@ -92,7 +92,7 @@ const About = () => {
             Work <br />
             Experience
           </h1>
-          <h1 class="md:hidden mb-[10px] text-[24px] font-bold text-[#505050] md:w-[320px] ">
+          <h1 class="md:hidden mb-[10px] text-[18px] md:text-[24px] font-bold text-[#505050] md:w-[320px] ">
             Work Experience
           </h1>
           <div className="md:mr-[80px]">

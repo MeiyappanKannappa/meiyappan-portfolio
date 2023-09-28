@@ -24,7 +24,7 @@ const Nav = () => {
   ];
 
   return (
-    <header className="mt-[70px] flex justify-between w-full h-20 md:items-center">
+    <header className=" flex justify-between w-full h-20 md:items-center">
       <div className="hidden md:flex space-x-2 items-center ">
         {Logos.map(({ id, link, image }) => (
           <a key={id} href={link}>

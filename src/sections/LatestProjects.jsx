@@ -1,11 +1,11 @@
 import React from "react";
 import LatestProjectData from "../data/LatestProjectData";
 
-const LatestProjects = () => {
+const LatestProjects = ({ title }) => {
   return (
-    <div className="mt-[50px] md:flex md:justify-between">
+    <div className="md:flex md:justify-between">
       <h1 className="text-[24px] md:text-[22px] font-bold text-[#505050]">
-        Latest Projects
+        {title}
       </h1>
       <div className="mt-[10px] md:flex">
         <div

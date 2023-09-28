@@ -1,11 +1,11 @@
 import React from "react";
 import Blogpost from "../data/Blogpost";
 
-const Blogs = () => {
+const Blogs = ({ title }) => {
   return (
     <div className="md:flex md:justify-between">
       <h1 className="text-[26px] font-bold text-[#505050] md:text-[22px] mb-[10px]">
-        Recent Blogs
+        {title}
       </h1>
       <div className="flex">
         <div className="flex-1 w-full ">
