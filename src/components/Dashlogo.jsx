@@ -28,21 +28,21 @@ const Dashlogo = () => {
             width={"350"}
           />
         </div>
-        <div className="mx-[30px] mt-[50px] md:hidden  items-center ">
+        <div className="mx-[10px] mt-[50px] md:hidden  items-center ">
           <div className="flex gap-10 justify-between">
             <img
               src="/assets/images/ford.png"
-              className="h-[60px] w-[170px] ml-5"
+              className="h-[60px] w-[170px] ml-5 object-contain"
             />
             <img
               src="/assets/images/benz.png"
-              className="h-[60px] w-[60px]  mr-8 "
+              className="h-[60px] w-[60px]  mr-8 object-contain "
             />
           </div>
           <div className="flex mt-6">
             <img
               src="/assets/images/cognizant.png"
-              className="h-[70px] w-full "
+              className="h-[70px] w-full  object-contain"
             />
           </div>
         </div>
