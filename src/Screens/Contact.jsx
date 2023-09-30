@@ -10,32 +10,36 @@ const Contact = () => {
               Contact Me
             </h1>
           </div>
-          <div class="md:w-3/5 text-left mt-[23px] md:mt-2 font-poppins">
-            <input
-              type="text"
-              name="Name"
-              id="name"
-              placeholder="Name"
-              className="w-full mb-[20px] md:mb-[30px] text-[18px] md:text-[22px] placeholder-[#505050] text-[#505050] border-b-2 border-[#9E9E9E] outline-none h-[40px] md:h-[50px]"
-            />
-            <input
-              type="email"
-              name="Email"
-              id="email"
-              placeholder="E-Mail"
-              className="w-full text-[18px] md:text-[22px] mb-[20px] md:mb-[30px] placeholder-[#505050] text-[#505050] border-b-2 border-[#9E9E9E] outline-none h-[40px] md:h-[50px]"
-            />
-            <input
-              type="text"
-              name="Message"
-              id="message"
-              placeholder="Message"
-              className="w-full text-[18px] md:text-[22px] mb-[20px] md:mb-[30px] placeholder-[#505050] text-[#505050] border-b-2 border-[#9E9E9E] outline-none h-[40px] md:h-[50px]"
-            />
-            <button className="flex underline outline-none text-[22px] md:text-[22px] text-[#505050] ml-auto">
-              Send
-            </button>
-          </div>
+          <form action="" method="POST">
+            <div class="md:w-[90%] text-left mt-[23px] md:mt-2 font-poppins">
+              <input
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Name"
+                className="w-full mb-[20px] md:mb-[30px] text-[18px] md:text-[22px] placeholder-[#505050] text-[#505050] border-b-2 border-[#9E9E9E] outline-none h-[40px] md:h-[50px]"
+              />
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="E-Mail"
+                className="w-full text-[18px] md:text-[22px] mb-[20px] md:mb-[30px] placeholder-[#505050] text-[#505050] border-b-2 border-[#9E9E9E] outline-none h-[40px] md:h-[50px]"
+              />
+              <input
+                type="text"
+                name="Message"
+                id="message"
+                placeholder="Message"
+                className="w-full text-[18px] md:text-[22px] mb-[20px] md:mb-[30px] placeholder-[#505050] text-[#505050] border-b-2 border-[#9E9E9E] outline-none h-[40px] md:h-[50px]"
+              />
+              <button className="flex underline outline-none text-[22px] md:text-[22px] text-[#505050] ml-auto">
+                Send
+              </button>
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_next" value="" />
+            </div>
+          </form>
         </div>
       </section>
     </main>

@@ -27,7 +27,7 @@ const Nav = () => {
     <header className=" flex justify-between w-full h-20 md:items-center">
       <div className="hidden md:flex space-x-2 items-center ">
         {Logos.map(({ id, link, image }) => (
-          <a key={id} href={link}>
+          <a key={id} href={link} target="_blank">
             <img
               src={image}
               width={"32px"}
