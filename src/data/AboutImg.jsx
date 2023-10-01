@@ -1,7 +1,7 @@
 const AboutImg = [
   {
     id: 1,
-    imageurl: "/assets/images/.png",
+    imageurl: "/assets/images/about-2.png",
   },
   {
     id: 2,
