@@ -96,7 +96,7 @@ const About = () => {
           <h1 class="lg:hidden mb-[10px] md:text-[22px] text-[18px] lg:text-[24px] font-bold text-[#505050] lg:w-[320px] ">
             Work Experience
           </h1>
-          <div className="xl:mr-[80px] 2xl:mr-[100px]">
+          <div className="xl:mr-[80px] 2xl:mr-[90px]">
             <WorkExperience />
           </div>
         </div>
