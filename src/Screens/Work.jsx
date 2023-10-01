@@ -5,7 +5,7 @@ import Blogs from "../sections/Blogs";
 const Work = () => {
   return (
     <main>
-      <section className="mt-[30px] md:mt-[100px]">
+      <section className="mt-[30px] md:mt-[50px] lg:mt-[100px]">
         <LatestProjects title={"Projects"} />
       </section>
       <section className="mt-[50px]">

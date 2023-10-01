@@ -5,7 +5,7 @@ import WorkExperience from "../sections/WorkExperience";
 const About = () => {
   return (
     <main className="mb-[70px]">
-      <section className="mt-[30px] text-[14px] md:text-[18px] font-poppins md:mt-[71px] text-center md:mx-[210px]">
+      <section className="mt-[30px] text-[14px] md:text-[18px] font-poppins md:mt-[71px] text-center lg:mx-[100px] xl:mx-[210px]">
         A technological dreamer and enthusiast that derives great satisfaction
         from crafting sophisticated software structures, and I am dedicated to
         being a driving force in the professional arena in the mobility space.
@@ -20,15 +20,15 @@ const About = () => {
             />
           ))}
         </div>
-        <div className="mt-[50px] md:hidden">
+        <div className="ss:mt-[30px] md:hidden">
           <div class="flex  justify-between">
             <img
               src="/assets/images/about-2.png"
-              class="h-[162px] object-contain"
+              class="ss:h-[210px] sm:h-[270px] object-contain"
             />
             <img
               src="/assets/images/about-1.png"
-              class="h-[162px] object-contain"
+              class="ss:h-[210px] sm:h-[270px] object-contain"
             />
           </div>
 
@@ -41,12 +41,12 @@ const About = () => {
         </div>
       </section>
 
-      <section className="mt-[50px] md:mt-[70px] ">
-        <div className="md:flex md:justify-center">
-          <h1 className="mb-[10px] text-[18px] md:text-[24px] font-bold text-[#505050] md:mr-[230px]">
+      <section className="mt-[50px] lg:mt-[70px] ">
+        <div className="lg:flex lg:justify-center">
+          <h1 className="mb-[10px] text-[18px] md:text-[22px] xl:text-[24px] font-bold text-[#505050] lg:mr-[130px] xl:mr-[230px]">
             About
           </h1>
-          <div className="text-[14px] md:text-[20px] font-poppins md:mx-[20px] ">
+          <div className="text-[14px] md:text-[16px] xl:text-[20px] font-poppins xl:mx-[20px] ">
             I have worked in software architecture for over a decade and have
             extensive experience with application modernisation for the Digital
             Journey. My whole professional life has been spent developing
@@ -87,16 +87,16 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 flex lg:justify-center md:-ml-[255px]">
-        <div className="md:flex">
-          <h1 class="hidden md:block text-[24px] font-bold text-[#505050] md:w-[320px] ">
+      <section className="mt-10 flex xl:justify-center xl:-ml-[255px] 2xl:mr-[150px]">
+        <div className="lg:flex">
+          <h1 class="hidden lg:block text-[24px] font-bold text-[#505050] lg:w-[190px] xl:w-[320px] 2xl:w-[315px]">
             Work <br />
             Experience
           </h1>
-          <h1 class="md:hidden mb-[10px] text-[18px] md:text-[24px] font-bold text-[#505050] md:w-[320px] ">
+          <h1 class="lg:hidden mb-[10px] md:text-[22px] text-[18px] lg:text-[24px] font-bold text-[#505050] lg:w-[320px] ">
             Work Experience
           </h1>
-          <div className="md:mr-[80px]">
+          <div className="xl:mr-[80px] 2xl:mr-[100px]">
             <WorkExperience />
           </div>
         </div>

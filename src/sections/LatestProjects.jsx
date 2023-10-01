@@ -3,8 +3,8 @@ import LatestProjectData from "../data/LatestProjectData";
 
 const LatestProjects = ({ title }) => {
   return (
-    <div className="md:flex md:justify-between">
-      <h1 className="text-[24px] md:text-[22px] font-bold text-[#505050]">
+    <div className="lg:flex lg:justify-between">
+      <h1 className="text-[24px] lg:text-[22px] font-bold text-[#505050]">
         {title}
       </h1>
       <div className="mt-[10px] md:flex">

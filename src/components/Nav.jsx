@@ -38,7 +38,7 @@ const Nav = () => {
         ))}
       </div>
       <div className="flex items-center ">
-        <a href="/" className="mt-[-16px] md:ml-[120px]">
+        <a href="/" className="mt-[-16px] md:ml-[75px]">
           <img
             src="/assets/images/logo.png"
             width={"66px"}
@@ -50,7 +50,7 @@ const Nav = () => {
 
       <ul className="hidden md:flex items-center md:space-x-5">
         {tabs.map(({ id, link, name }) => (
-          <li key={id} className="text-[28px]">
+          <li key={id} className="md:text-[24px] text-[28px]">
             <a href={link}>{name}</a>
           </li>
         ))}
