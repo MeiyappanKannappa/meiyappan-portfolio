@@ -20,15 +20,15 @@ const About = () => {
             />
           ))}
         </div>
-        <div className="ss:mt-[30px] md:hidden">
+        <div className="mt-[30px]  ss:mt-[30px] md:hidden">
           <div class="flex  justify-between">
             <img
               src="/assets/images/about-2.png"
-              class="ss:h-[210px] sm:h-[270px] object-contain"
+              class="h-[166px] ss:h-[210px] sm:h-[270px] object-contain"
             />
             <img
               src="/assets/images/about-1.png"
-              class="ss:h-[210px] sm:h-[270px] object-contain"
+              class="h-[166px] ss:h-[210px] sm:h-[270px] object-contain"
             />
           </div>
 
