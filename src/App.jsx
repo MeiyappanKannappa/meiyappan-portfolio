@@ -13,7 +13,7 @@ import Nav from "./components/Nav";
 
 export default function App() {
   return (
-    <main className="overflow-scroll mt-[37px] md:mt-[80px] mx-[30px] ss:mx-[20px] sm:mx-[40px] md:mx-[50px] lg:mx-[60px] xl:mx-[75px] 2xl:mx-[120px] ">
+    <main className="mt-[37px] md:mt-[80px] mx-[30px] ss:mx-[20px] sm:mx-[40px] md:mx-[50px] lg:mx-[60px] xl:mx-[75px] 2xl:mx-[120px] ">
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
