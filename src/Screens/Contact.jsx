@@ -11,7 +11,7 @@ const Contact = () => {
             </h1>
           </div>
           <form action="" method="POST">
-            <div class="md:w-[90%] text-left mt-[23px] md:mt-2 font-poppins">
+            <div class="md:w-[90%] text-left mt-[23px] md:mt-2 font-poppins ">
               <input
                 type="text"
                 name="Name"

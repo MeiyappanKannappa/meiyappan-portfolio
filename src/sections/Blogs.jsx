@@ -1,5 +1,5 @@
 import React from "react";
-import Blogpost from "../data/Blogpost";
+import BlogpostData from "../data/BlogpostData";
 
 const Blogs = ({ title }) => {
   return (
@@ -8,23 +8,23 @@ const Blogs = ({ title }) => {
         {title}
       </h1>
       <div className="flex">
-        <div className="flex-1 w-full ">
-          {Blogpost.filter((item) => item.id % 2 !== 0).map(
-            ({ id, link, imageurl }) => (
+        <div className="flex-1 w-full">
+          {BlogpostData.filter((item) => item.id % 2 !== 0)
+            .slice(0, 2) // Only take the first 4 items
+            .map(({ id, link, imageurl }) => (
               <div key={id} className="mb-5 md:mb-7">
                 <img src={imageurl} width={"450px"} />
               </div>
-            )
-          )}
+            ))}
         </div>
-        <div className="flex-1 w-full ml-4 ">
-          {Blogpost.filter((item) => item.id % 2 == 0).map(
-            ({ id, link, imageurl }) => (
+        <div className="flex-1 w-full ml-4">
+          {BlogpostData.filter((item) => item.id % 2 === 0)
+            .slice(0, 2) // Only take the first 4 items
+            .map(({ id, link, imageurl }) => (
               <div key={id} className="mb-5 md:mb-7">
                 <img src={imageurl} width={"450px"} />
               </div>
-            )
-          )}
+            ))}
         </div>
       </div>
     </div>

@@ -23,5 +23,17 @@ const Blogpost = [
     imageurl: "/assets/images/blogpost-4.png",
     text: "Blog post 4",
   },
+  {
+    id: 5,
+    link: "www.google.com",
+    imageurl: "/assets/images/blogpost-4.png",
+    text: "Blog post 4",
+  },
+  {
+    id: 6,
+    link: "www.google.com",
+    imageurl: "/assets/images/blogpost-4.png",
+    text: "Blog post 4",
+  },
 ];
 export default Blogpost;
