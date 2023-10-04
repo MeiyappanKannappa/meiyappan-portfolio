@@ -13,11 +13,7 @@ const About = () => {
       <section className="md:mt-[70px] ">
         <div className="hidden md:flex justify-center gap-[30px] object-cover">
           {AboutImg.map((item) => (
-            <img
-              key={item.id}
-              src={item.imageurl}
-              className={`${item.id === 3 ? "w-[320px]" : "w-[220px]"}`}
-            />
+            <img key={item.id} src={item.imageurl} className="h-[220px]" />
           ))}
         </div>
         <div className="mt-[30px]  ss:mt-[30px] md:hidden">
@@ -42,11 +38,13 @@ const About = () => {
       </section>
 
       <section className="mt-[50px] lg:mt-[70px] ">
-        <div className="lg:flex lg:justify-center">
-          <h1 className="mb-[10px] text-[18px] md:text-[22px] xl:text-[24px] font-bold text-[#505050] lg:mr-[130px] xl:mr-[230px]">
-            About
-          </h1>
-          <div className="text-[14px] md:text-[16px] xl:text-[20px] font-poppins xl:mx-[20px] ">
+        <div className="lg:flex">
+          <div className=" lg:w-[1050px]">
+            <h1 className="mb-[10px] text-[18px] md:text-[22px] xl:text-[24px] font-bold text-[#505050]">
+              About
+            </h1>
+          </div>
+          <div className="text-[14px] md:text-[16px] xl:text-[20px] font-poppins">
             I have worked in software architecture for over a decade and have
             extensive experience with application modernisation for the Digital
             Journey. My whole professional life has been spent developing
@@ -87,16 +85,18 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="mt-10 flex xl:justify-center xl:-ml-[255px] 2xl:mr-[150px]">
-        <div className="lg:flex">
-          <h1 class="hidden lg:block text-[24px] font-bold text-[#505050] lg:w-[190px] xl:w-[320px] 2xl:w-[315px]">
-            Work <br />
-            Experience
-          </h1>
-          <h1 class="lg:hidden mb-[10px] md:text-[22px] text-[18px] lg:text-[24px] font-bold text-[#505050] lg:w-[320px] ">
-            Work Experience
-          </h1>
-          <div className="xl:mr-[80px] 2xl:mr-[90px]">
+      <section className="mt-10">
+        <h1 class="lg:hidden mb-[10px] md:text-[22px] text-[18px] lg:text-[24px] font-bold text-[#505050] lg:w-[320px] ">
+          Work Experience
+        </h1>
+        <div className="flex">
+          <div className="lg:w-[290px]">
+            <h1 class="hidden lg:block text-[24px] font-bold text-[#505050]">
+              Work <br />
+              Experience
+            </h1>
+          </div>
+          <div className="">
             <WorkExperience />
           </div>
         </div>
