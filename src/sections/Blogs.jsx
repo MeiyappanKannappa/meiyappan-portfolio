@@ -3,7 +3,7 @@ import BlogpostData from "../data/BlogpostData";
 
 const Blogs = ({ title }) => {
   return (
-    <div className="lg:flex lg:justify-between">
+    <div className="xl:flex lg:justify-between">
       <h1 className="text-[26px] font-bold text-[#505050] lg:text-[22px] mb-[10px]">
         {title}
       </h1>

@@ -3,15 +3,22 @@ import React from "react";
 const Contact = () => {
   return (
     <main>
+      <section className="mt-[30px] text-[14px] md:text-[18px] font-poppins md:mt-[71px] text-center lg:mx-[100px] xl:mx-[210px]">
+        I am readily available to connect with you in a professional capacity.
+        Whether it pertains to a potential project, an inquiry, or any other
+        matter of importance, please feel free to contact me. Your message will
+        be the initial point of contact for what I hope to be a productive and
+        meaningful interaction.
+      </section>
       <section className="mt-[50px]">
-        <div class="mt-[50px] md:flex ">
-          <div class="md:w-[20%]">
+        <div class="mt-[50px] xl:flex">
+          <div class="xl:w-[20%]">
             <h1 class="text-[26px] md:text-[24px] md:mt-[10px] font-bold text-[#505050]">
               Contact Me
             </h1>
           </div>
           <form action="" method="POST">
-            <div class="md:w-[90%] text-left mt-[23px] md:mt-2 font-poppins ">
+            <div class="xl:w-[90%] text-left mt-[23px] md:mt-2 font-poppins ">
               <input
                 type="text"
                 name="Name"

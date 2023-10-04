@@ -6,7 +6,7 @@ import LatestProjects from "../sections/LatestProjects";
 const Home = () => {
   return (
     <main className="mb-10">
-      <section className="text-[14px] lg:md:text-[18px] font-poppins mt-[71px] text-center md:mx-[70px] lg:mx-[230px]">
+      <section className="text-[14px] lg:md:text-[18px] font-poppins mt-[71px] text-center md:mx-[70px] lg:mx-[150px]">
         Indian architect and developer with a penchant for cloud-native
         architecture and development. Created business-to-consumer and
         business-to-business

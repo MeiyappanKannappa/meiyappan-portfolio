@@ -17,8 +17,7 @@ const Blogs = ({ title }) => {
                 <a href={link} target="_blank">
                   <img
                     src={imageurl}
-                    width={"450px"}
-                    className="h-[150px] md:h-[250px] lg:h-[350px] border-2 border-[#505050] object-contain"
+                    className="w-[450px] h-[150px] md:h-[250px] lg:h-[350px] border-2 border-[#505050] object-contain"
                   />
                 </a>
               </div>

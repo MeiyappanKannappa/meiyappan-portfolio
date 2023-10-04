@@ -11,9 +11,13 @@ const About = () => {
         being a driving force in the professional arena in the mobility space.
       </section>
       <section className="md:mt-[70px] ">
-        <div className="hidden md:flex justify-center gap-[30px] object-cover">
+        <div className="hidden md:flex justify-center md:gap-4 lg:gap-[30px] object-cover">
           {AboutImg.map((item) => (
-            <img key={item.id} src={item.imageurl} className="h-[220px]" />
+            <img
+              key={item.id}
+              src={item.imageurl}
+              className="md:h-[170px] lg:h-[220px]"
+            />
           ))}
         </div>
         <div className="mt-[30px]  ss:mt-[30px] md:hidden">
@@ -90,7 +94,7 @@ const About = () => {
           Work Experience
         </h1>
         <div className="flex">
-          <div className="lg:w-[290px]">
+          <div className="lg:w-[245px] xl:mr-[15px] 2xl:mr-[50px]">
             <h1 class="hidden lg:block text-[24px] font-bold text-[#505050]">
               Work <br />
               Experience
