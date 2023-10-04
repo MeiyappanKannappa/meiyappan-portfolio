@@ -1,6 +1,6 @@
 import React from "react";
 import Dashlogo from "../components/Dashlogo";
-import Blogs from "../sections/Blogs";
+import RecentBlogs from "../sections/RecentBlogs";
 import LatestProjects from "../sections/LatestProjects";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <Dashlogo />
       </section>
       <section className="mt-[80px]">
-        <Blogs title={"Recent Blogs"} />
+        <RecentBlogs title={"Recent Blogs"} />
       </section>
       <section className="mt-[50px] md:mt-[50px]">
         <LatestProjects title={"Latest Projects"} />
