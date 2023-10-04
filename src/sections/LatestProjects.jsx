@@ -8,32 +8,33 @@ const LatestProjects = ({ title }) => {
         {title}
       </h1>
       <div className="mt-[10px] md:flex">
-        <div
-          className="flex justify-center 
-        md:flex-1 md:w-full "
-        >
-          {LatestProjectData.filter((item) => item.id % 2 !== 0).map(
+        <div className="flex justify-center md:flex-1 md:w-full ">
+          {LatestProjectData.filter((item) => item.id % 2 === 0).map(
             ({ id, link, imageurl }) => (
               <div key={id} className="mb-[10px] md:mb-7">
-                <img
-                  src={imageurl}
-                  width={"450px"}
-                  className="hidden md:flex"
-                />
+                <a href={link} target="_blank">
+                  <img
+                    src={imageurl}
+                    width={"450px"}
+                    className="hidden md:flex"
+                  />
+                </a>
                 <img src={imageurl} className="w-full md:hidden" />
               </div>
             )
           )}
         </div>
         <div className="flex justify-center md:flex-1 md:w-full md:ml-4 ">
-          {LatestProjectData.filter((item) => item.id % 2 == 0).map(
+          {LatestProjectData.filter((item) => item.id % 2 !== 0).map(
             ({ id, link, imageurl }) => (
               <div key={id} className="mb-[10px] md:mb-7">
-                <img
-                  src={imageurl}
-                  width={"450px"}
-                  className="hidden md:flex"
-                />
+                <a href={link} target="_blank">
+                  <img
+                    src={imageurl}
+                    width={"450px"}
+                    className="hidden md:flex"
+                  />
+                </a>
                 <img src={imageurl} className="w-full md:hidden" />
               </div>
             )

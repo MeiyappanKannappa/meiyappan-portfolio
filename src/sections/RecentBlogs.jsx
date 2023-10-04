@@ -9,28 +9,35 @@ const Blogs = ({ title }) => {
       </h1>
       <div className="flex">
         <div className="flex-1 w-full">
-          {BlogpostData.filter((item) => item.id % 2 !== 0)
+          {BlogpostData.reverse()
+            .filter((item) => item.id % 2 !== 0)
             .slice(0, 2) // Only take the first 2 items
             .map(({ id, link, imageurl }) => (
               <div key={id} className="mb-5 md:mb-7">
-                <img
-                  src={imageurl}
-                  width={"450px"}
-                  className="h-[185px] lg:h-[350px] border-2 border-[#505050] object-contain"
-                />
+                <a href={link} target="_blank">
+                  <img
+                    src={imageurl}
+                    width={"450px"}
+                    className="h-[150px] md:h-[250px] lg:h-[350px] border-2 border-[#505050] object-contain"
+                  />
+                </a>
               </div>
             ))}
         </div>
         <div className="flex-1 w-full ml-4">
-          {BlogpostData.filter((item) => item.id % 2 === 0)
+          {BlogpostData.reverse()
+            .filter((item) => item.id % 2 === 0)
+            .reverse()
             .slice(0, 2) // Only take the first 2 items
             .map(({ id, link, imageurl }) => (
               <div key={id} className="mb-5 md:mb-7">
-                <img
-                  src={imageurl}
-                  width={"450px"}
-                  className="h-[185px] lg:h-[350px] border-2 border-[#505050] object-contain"
-                />
+                <a href={link} target="_blank">
+                  <img
+                    src={imageurl}
+                    width={"450px"}
+                    className="h-[150px] md:h-[250px] lg:h-[350px] border-2 border-[#505050] object-contain"
+                  />
+                </a>
               </div>
             ))}
         </div>

@@ -9,22 +9,34 @@ const Blogs = ({ title }) => {
       </h1>
       <div className="flex">
         <div className="flex-1 w-full">
-          {BlogpostData.filter((item) => item.id % 2 !== 0).map(
-            ({ id, link, imageurl }) => (
+          {BlogpostData.filter((item) => item.id % 2 !== 0)
+            .reverse()
+            .map(({ id, link, imageurl }) => (
               <div key={id} className="mb-5 md:mb-7">
-                <img src={imageurl} width={"450px"} />
+                <a href={link} target="_blank">
+                  <img
+                    src={imageurl}
+                    width={"450px"}
+                    className="object-fill border-2 border-[#505050]"
+                  />
+                </a>
               </div>
-            )
-          )}
+            ))}
         </div>
         <div className="flex-1 w-full ml-4">
-          {BlogpostData.filter((item) => item.id % 2 === 0).map(
-            ({ id, link, imageurl }) => (
+          {BlogpostData.filter((item) => item.id % 2 === 0)
+            .reverse()
+            .map(({ id, link, imageurl }) => (
               <div key={id} className="mb-5 md:mb-7">
-                <img src={imageurl} width={"450px"} className="object-fill" />
+                <a href={link} target="_blank">
+                  <img
+                    src={imageurl}
+                    width={"450px"}
+                    className="object-fill border-2 border-[#505050]"
+                  />
+                </a>
               </div>
-            )
-          )}
+            ))}
         </div>
       </div>
     </div>

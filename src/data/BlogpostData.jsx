@@ -86,7 +86,7 @@ const Blogpost = [
     id: 13,
     link: "https://msmechatronics.medium.com/cloud-infrastructure-sustainablity-c5c6e452c98",
     imageurl:
-      "https://msmechatronics.medium.com/cloud-infrastructure-sustainablity-c5c6e452c98",
+      "https://miro.medium.com/v2/resize:fit:640/format:webp/1*z4hFhUlLmsbxiCrpgO-zPw.png",
     text: "How Sustainable is your Cloud Infrastructure",
   },
   {
@@ -107,7 +107,7 @@ const Blogpost = [
     id: 16,
     link: "https://msmechatronics.medium.com/feature-and-configuration-management-for-targeted-users-in-products-de116e1fd54e",
     imageurl:
-      "https://msmechatronics.medium.com/feature-and-configuration-management-for-targeted-users-in-products-de116e1fd54e",
+      "https://miro.medium.com/v2/resize:fit:828/format:webp/1*i1Tbu4GxkoISw9ws6KI5-A.png",
     text: "Feature and Configuration Management for Targeted Users in Products",
   },
   {
