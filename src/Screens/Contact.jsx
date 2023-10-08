@@ -3,13 +3,13 @@ import React from "react";
 const Contact = () => {
   return (
     <main>
-      <section className="mt-[30px] text-[14px] md:text-[18px] font-poppins md:mt-[71px] text-center lg:mx-[100px] xl:mx-[210px]">
+      {/* <section className="mt-[30px] text-[14px] md:text-[18px] font-poppins md:mt-[71px] text-center lg:mx-[100px] xl:mx-[210px]">
         I am readily available to connect with you in a professional capacity.
         Whether it pertains to a potential project, an inquiry, or any other
         matter of importance, please feel free to contact me. Your message will
         be the initial point of contact for what I hope to be a productive and
         meaningful interaction.
-      </section>
+      </section> */}
       <section className="mt-[50px]">
         <div class="mt-[50px] xl:flex">
           <div class="xl:w-[20%]">
@@ -17,7 +17,10 @@ const Contact = () => {
               Contact Me
             </h1>
           </div>
-          <form action="" method="POST">
+          <form
+            action="https://formsubmit.co/f12dc92ce6967f5ef07f03971da41474"
+            method="POST"
+          >
             <div class="xl:w-[90%] text-left mt-[23px] md:mt-2 font-poppins ">
               <input
                 type="text"
@@ -44,7 +47,7 @@ const Contact = () => {
                 Send
               </button>
               <input type="hidden" name="_template" value="table" />
-              <input type="hidden" name="_next" value="" />
+              <input type="hidden" name="_next" value="/" />
             </div>
           </form>
         </div>
