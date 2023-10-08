@@ -19,15 +19,21 @@ const Dashlogo = () => {
   return (
     <div>
       <div>
-        <div className="hidden lg:flex justify-center items-center gap-[100px]">
-          <img src="/assets/images/ford.png" height={"80px"} width={"220px"} />
-          <img src="/assets/images/benz.png" height={"85px"} width={"90px"} />
+        <div className="hidden  md:flex lg:flex justify-center items-center md:gap-[80px] lg:gap-[100px]">
+          <img
+            src="/assets/images/ford.png"
+            className="md:h-[60px] lg:h-[80px] lg:w-[220px] object-contain"
+          />
+          <img
+            src="/assets/images/benz.png"
+            className="md:h-[60px] lg:h-[85px] lg:w-[90px] object-contain"
+          />
           <img
             src="/assets/images/cognizant.png"
-            height={"91px"}
-            width={"350"}
+            className="md:h-[50px] lg:h-[91px] lg:w-[350px] object-contain"
           />
         </div>
+        {/* {Mobile} */}
         <div className="mx-[10px] mt-[50px] sm:mx-[80px]  md:hidden  items-center ">
           <div className="flex gap-10 justify-between">
             <img
