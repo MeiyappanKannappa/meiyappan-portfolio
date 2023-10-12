@@ -69,7 +69,7 @@ const About = () => {
             I've had the most success as a developer.
             <br />
             <br />
-            My Medium profile, msmechatronics.medium.com, is where I share{" "}
+            My Medium profile is where I share{" "}
             <span className="text-[#1363DF] font-semibold">
               articles on technological issues
             </span>{" "}

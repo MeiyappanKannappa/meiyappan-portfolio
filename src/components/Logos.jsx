@@ -17,7 +17,7 @@ const Logos = [
   {
     id: 4,
     image: "/assets/images/mail.png",
-    link: "mailto:msmechatronics@gmail.com",
+    link: "/contact",
   },
 ];
 
