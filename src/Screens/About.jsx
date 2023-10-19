@@ -79,8 +79,7 @@ const About = () => {
             learned.
             <br />
             <br />
-            You can email me at msmechatronics@gmail.com if you'd want to get in
-            touch. On a more personal level, I have an{" "}
+            On a more personal level, I have an{" "}
             <span className="text-[#1363DF] font-semibold">inner poet</span> and
             love nothing more than to curl up with a good book and a{" "}
             <span className="text-[#1363DF] font-semibold">
