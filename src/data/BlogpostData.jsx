@@ -145,5 +145,12 @@ const Blogpost = [
       "https://miro.medium.com/v2/resize:fit:720/format:webp/1*NIcluecUWAXyDAOZCjYYhA.png",
     text: "LLMs and Langchain — Manage issues in Github",
   },
+  {
+    id: 22,
+    link: "https://msmechatronics.medium.com/websocket-wizardry-spring-webflux-edition-ca9d30346465",
+    imageurl:
+      "https://miro.medium.com/v2/resize:fit:720/format:webp/1*fdVWybzgsDlIpugqwqjgmg.png",
+    text: "WebSocket Wizardry: Spring Webflux Edition",
+  },
 ];
 export default Blogpost;

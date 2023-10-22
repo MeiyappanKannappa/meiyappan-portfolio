@@ -10,7 +10,10 @@ const Blogs = ({ title }) => {
       <div className="flex">
         <div className="flex-1 w-full">
           {BlogpostData.reverse()
-            .filter((item) => item.id % 2 !== 0)
+            .filter((item) => {
+              const modifiedId = item.id - 1;
+              return modifiedId % 2 !== 0;
+            })
             .slice(0, 2) // Only take the first 2 items
             .map(({ id, link, imageurl, text }) => (
               <div key={id} className="mb-5 md:mb-7 relative">
@@ -49,7 +52,10 @@ const Blogs = ({ title }) => {
             ))}
         </div> */}
         <div className="flex-1 w-full ml-4">
-          {BlogpostData.filter((item) => item.id % 2 === 0)
+          {BlogpostData.filter((item) => {
+            const modifiedId = item.id - 1;
+            return modifiedId % 2 === 0;
+          })
             .slice(0, 2) // Only take the first 2 items
             .map(({ id, link, imageurl, text }) => (
               <div key={id} className="mb-5 md:mb-7 relative">
