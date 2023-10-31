@@ -19,6 +19,11 @@ const Logos = [
     image: "/assets/images/mail.png",
     link: "/contact",
   },
+  {
+    id: 5,
+    image: "/assets/images/whatsapp.png",
+    link: "https://www.whatsapp.com/channel/0029Va8fHPPAe5Vn8Mqva046",
+  },
 ];
 
 export default Logos;
