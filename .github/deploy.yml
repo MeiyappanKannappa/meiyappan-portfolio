@@ -1,51 +1,44 @@
-name: Deploy
+name: Deploy to Github Pages
 
+# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
       - main
 
 jobs:
-  build:
-    name: Build
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
+      # checkout to the commit that has been pushed
+      - uses: actions/checkout@v3
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.6.0
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Update Hugo Modules
+        run: hugo mod tidy
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
-      - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+      - name: Install node modules
+        run: |
+          hugo mod npm pack
+          npm install
 
-      - name: Build project
-        run: npm run build
+      - name: Build
+        run: hugo --minify
 
-      - name: Upload production-ready build files
-        uses: actions/upload-artifact@v2
-        with:
-          name: production-files
-          path: ./dist
-
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
-    steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: production-files
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      # push the generated content into the `gh-pages` branch.
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.9.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_branch: gh-pages
+          publish_dir: ./public
