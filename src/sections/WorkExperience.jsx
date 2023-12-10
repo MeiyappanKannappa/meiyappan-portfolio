@@ -5,8 +5,8 @@ const WorkExperience = () => {
   return (
     <main>
       {WorkExperienceData.reverse().map((items) => (
-        <div className="mb-[20px] md:mb-[30px]">
-          <div key={items.id} className="text-[16px] md:text-[22px]">
+        <div key={items.id} className="mb-[20px] md:mb-[30px]">
+          <div className="text-[16px] md:text-[22px]">
             {items.JobTitle} •{" "}
             <span className="font-poppins text-[14px] md:text-[18px]">
               {items.Company}

@@ -11,9 +11,9 @@ const Contact = () => {
         meaningful interaction.
       </section> */}
       <section className="mt-[50px]">
-        <div class="mt-[50px] xl:flex">
-          <div class="xl:w-[20%]">
-            <h1 class="text-[26px] md:text-[24px] md:mt-[10px] font-bold text-[#505050]">
+        <div className="mt-[50px] xl:flex">
+          <div className="xl:w-[20%]">
+            <h1 className="text-[26px] md:text-[24px] md:mt-[10px] font-bold text-[#505050]">
               Contact Me
             </h1>
           </div>
@@ -21,7 +21,7 @@ const Contact = () => {
             action="https://formsubmit.co/f12dc92ce6967f5ef07f03971da41474"
             method="POST"
           >
-            <div class="xl:w-[90%] text-left mt-[23px] md:mt-2 font-poppins ">
+            <div className="xl:w-[90%] text-left mt-[23px] md:mt-2 font-poppins ">
               <input
                 type="text"
                 name="Name"

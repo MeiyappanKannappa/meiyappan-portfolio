@@ -21,14 +21,14 @@ const About = () => {
           ))}
         </div>
         <div className="mt-[30px]  ss:mt-[30px] md:hidden">
-          <div class="flex  justify-between">
+          <div className="flex  justify-between">
             <img
               src="/assets/images/about-2.png"
-              class="h-[166px] ss:h-[210px] sm:h-[270px] object-contain"
+              className="h-[166px] ss:h-[210px] sm:h-[270px] object-contain"
             />
             <img
               src="/assets/images/about-1.png"
-              class="h-[166px] ss:h-[210px] sm:h-[270px] object-contain"
+              className="h-[166px] ss:h-[210px] sm:h-[270px] object-contain"
             />
           </div>
 
@@ -89,12 +89,12 @@ const About = () => {
         </div>
       </section>
       <section className="mt-10">
-        <h1 class="lg:hidden mb-[10px] md:text-[22px] text-[18px] lg:text-[24px] font-bold text-[#505050] lg:w-[320px] ">
+        <h1 className="lg:hidden mb-[10px] md:text-[22px] text-[18px] lg:text-[24px] font-bold text-[#505050] lg:w-[320px] ">
           Work Experience
         </h1>
         <div className="flex">
           <div className="lg:w-[245px] xl:mr-[15px] 1xl:mr-[50px] 2xl:mr-[50px]">
-            <h1 class="hidden lg:block text-[24px] font-bold text-[#505050]">
+            <h1 className="hidden lg:block text-[24px] font-bold text-[#505050]">
               Work <br />
               Experience
             </h1>
