@@ -24,6 +24,11 @@ const Logos = [
     image: "/assets/images/whatsapp.png",
     link: "https://www.whatsapp.com/channel/0029Va8fHPPAe5Vn8Mqva046",
   },
+  {
+    id: 6,
+    image: "/assets/images/youtube.png",
+    link: "https://www.youtube.com/@MECT06",
+  },
 ];
 
 export default Logos;
