@@ -50,7 +50,10 @@ const Nav = () => {
 
       <ul className="hidden md:flex items-center md:space-x-5">
         {tabs.map(({ id, link, name }) => (
-          <li key={id} className="md:text-[24px] text-[28px]">
+          <li
+            key={id}
+            className="md:text-[24px] text-[28px] hover:text-[#1363DF] hover:font-normal"
+          >
             <a href={link}>{name}</a>
           </li>
         ))}
